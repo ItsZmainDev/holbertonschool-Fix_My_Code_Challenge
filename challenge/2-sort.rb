@@ -13,7 +13,6 @@ ARGV.each do |arg|
     i_arg = arg.to_i
 
     # insert result at the right position
-    is_inserted = false
     i = 0
     l = result.size
     while i < l && result[i] < i_arg
